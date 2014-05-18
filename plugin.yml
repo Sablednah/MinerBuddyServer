@@ -1,0 +1,14 @@
+name: MinerBuddyServer
+version: 1.0.0
+description: RESTfull server to allow remote clients to query Bukkit server data and trigger preset commands.
+author: SableDnah
+website: http://dev.bukkit.org/server-mods/MinerBuddyServer/
+load: STARTUP
+main: me.sablednah.MinerBuddyServer.MinerBuddyServer
+softdepend: [  ]
+
+commands:
+    minerbuddyserver:
+        description: Root command for all  MinerBuddyServer Commands.
+        usage: /<command> [reload]
+        aliases: [mbs,mb,buddy]

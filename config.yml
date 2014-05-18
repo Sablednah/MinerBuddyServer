@@ -1,0 +1,15 @@
+debugMode: false
+
+commands:
+    approve:
+        args: 1
+        console: permissions player setgroup %1 Member
+        password: imagicraft
+    kick:
+        args: 2
+        console: kick %1 %2
+        password: imagicraft
+    ban:
+        args: 2
+        console: ban %1 %2
+        password: imagicraft
